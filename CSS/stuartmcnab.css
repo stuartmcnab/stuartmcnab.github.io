@@ -10,5 +10,11 @@ body {
         background-color: black;
 		color: white;
 		text-align: center;
+
     }
+}
+footer {
+	border-top: 2px solid white
+	border-width:30%;
+	width: 30%;
 }
