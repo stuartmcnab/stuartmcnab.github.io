@@ -16,7 +16,9 @@ footer {
 }
 @media only screen and (max-width: 768px) {
     body {
-    font-size:20px;		
+    font-size:20px;
+    background-color: white;
+    color:black;
 
     }
 }
