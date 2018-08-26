@@ -19,7 +19,11 @@ font-size: .75em;
 text-align: left;
 }
 .main-content {
-	background-image: url("/images/makingcoffee.jpg");
+	background-image: "images/makingcoffee.jpg";
+	background-repeat: no-repeat;
+	background-width:100%;
+	margin: auto;
+	padding: auto;
 	opacity: 0.2;
 }
 span {
