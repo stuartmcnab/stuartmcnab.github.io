@@ -1,0 +1,21 @@
+h1 {
+	font-family: arial;
+	margin: 1.66%;
+	border-bottom: 1px solid black;
+	width: 30%;
+	padding-bottom: .5%;
+}
+
+img {
+	float: left;
+	width: 30%;
+	padding-bottom: 30%;
+	margin: .66%;
+	border:4px solid white;
+	background-color: black;
+}
+img:hover {
+
+	opacity: 0.8;
+	border: 4px solid black;
+}
