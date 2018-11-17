@@ -1,14 +1,16 @@
 body {
 	font-family: 'Ubuntu', sans-serif;
 }
-a .navbar-brand {
-	font-style: strong;
-}
 
-.jumbotron  {
-	background-image: url('images/mountains2.jpg');
-	background-size: 100%;
+.hero  {
+	background-image: url('images/mountains.jpg');
 	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	width: 100%;
 	text-align: center;
 	color:white;
+	padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
 }
