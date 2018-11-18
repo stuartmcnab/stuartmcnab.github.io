@@ -1,16 +1,35 @@
 body {
 	font-family: 'Ubuntu', sans-serif;
 }
+navbar {
+	padding-bottom: 10px;
+    margin-bottom: 10px;
+}
 
 .hero  {
-	background-image: url('images/mountains3.jpg');
+	background-image: url('images/mountains2.jpg');
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-position: center;
 	width: 100%;
 	text-align: center;
 	color:white;
+	padding-top: 40px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+footer {
 	padding-top: 30px;
     padding-bottom: 30px;
-    margin-bottom: 20px;
+    background-color: #33393F;
+    text-align: center;
+    color: white;
+}
+.contact {
+	background-color: #E8EBEE;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#contactme {
+	text-align: center;
 }
