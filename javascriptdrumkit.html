@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <title>JS Drum Kit</title>
+<!--   <link rel="stylesheet" href="css/drumkitstyle.css"> -->
+  <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -10,15 +13,16 @@
     <!-- Google font -->
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <!-- Custom CSS -->
-	  <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+      <link rel="stylesheet" href="css/drumkitstyle.css">
 <!-- Title -->
-	<title>Home | Stuart McNab</title>
+  <title>JS Drum Kit | Stuart McNab</title>
 </head>
 <body>
 <!-- Navbar -->
 <header class="fixed-top">
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="https://stuartmcnab.com/"><strong class="brackets">&lt;</strong>SM<strong class="brackets">&gt;</SM<strong></a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="https://stuartmcnab.com/"><strong class="brackets">&lt;</strong>SM<strong class="brackets">&gt;</strong></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -49,59 +53,74 @@
     </ul>
   </div>
 </nav>
-<!-- <div class="container contactme">
-  <p id="contactme">
-    <a href="mailto:stuartmcnab@protonmail.com">Email me</a>.
-  </p>
-</div> -->
 </header>
-<!-- Title jumbotron -->
-<div class="hero" >
-    <h1 class="">Stuart McNab</h1>
-    <h2 class="lead"> Marketing & Web Development</h2>
-</div>
+<!-- Breadcrumb -->
 <div>
   <nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item active" aria-current="page">Home</li>
-  </ol>
-</nav>
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item active" aria-current="page">Home</li>
+    </ol>
+  </nav>
 </div>
+<div></div>
 
-<div class="container about">
-  <h3>Web development</h3>
-  <p>
-    Utilising HTML5, CSS3 and JavaScript using
-    frameworks from jQuery to Bootstrap, developing pages, microsites, and
-    fully integrated web applications.
-  </p>
-  <p>
-    I am self taught with the support of an excellent coach and mentor, courses 
-    from market leading agencies and bootcamps from developer and instructor Colt 
-    Steele to ensure I deliver functional clean code to bring projects to life.
-  </p>
-  <h3>Marketing</h3>
-  <p>
-    Managing small to multi-million pound budgets across campaigns from paid search (PPC),
-    social media, and currently programmatic advertising; my foundations in marketing and 
-    strategy bring strength to both my marketing and development making every penny count 
-    no matter the budget.
-  </p>
-  <p>
-    Understanding key drivers in behaviour at a personal and mass marketing level mean I can
-    implement meaningful moments at scale on both marketing channels and the website they 
-    land on to aid a seamless end to end journey.
-  </p>
-</div>
-  <div class="container contact">
-   <h3>Contact</h3>
-  <p>
-    I am currently working as a marketing manager at Experian and am interested in web development and digital marketing oportunities.
-  </p>
-  <p id="contactme">
-    You can contact me via <a href="mailto:stuartmcnab@protonmail.com">stuartmcnab@protonmail.com</a>.
-  </p>
-</div>
+  <div class="keys">
+    <div data-key="65" class="key">
+      <kbd>A</kbd>
+      <span class="sound">clap</span>
+    </div>
+    <div data-key="83" class="key">
+      <kbd>S</kbd>
+      <span class="sound">hihat</span>
+    </div>
+    <div data-key="68" class="key">
+      <kbd>D</kbd>
+      <span class="sound">kick</span>
+    </div>
+    <div data-key="70" class="key">
+      <kbd>F</kbd>
+      <span class="sound">openhat</span>
+    </div>
+    <div data-key="71" class="key">
+      <kbd>G</kbd>
+      <span class="sound">boom</span>
+    </div>
+    <div data-key="72" class="key">
+      <kbd>H</kbd>
+      <span class="sound">ride</span>
+    </div>
+    <div data-key="74" class="key">
+      <kbd>J</kbd>
+      <span class="sound">snare</span>
+    </div>
+    <div data-key="75" class="key">
+      <kbd>K</kbd>
+      <span class="sound">tom</span>
+    </div>
+    <div data-key="76" class="key">
+      <kbd>L</kbd>
+      <span class="sound">tink</span>
+    </div>
+  </div>
+
+  <audio data-key="65" src="sounds/clap.wav"></audio>
+  <audio data-key="83" src="sounds/hihat.wav"></audio>
+  <audio data-key="68" src="sounds/kick.wav"></audio>
+  <audio data-key="70" src="sounds/openhat.wav"></audio>
+  <audio data-key="71" src="sounds/boom.wav"></audio>
+  <audio data-key="72" src="sounds/ride.wav"></audio>
+  <audio data-key="74" src="sounds/snare.wav"></audio>
+  <audio data-key="75" src="sounds/tom.wav"></audio>
+  <audio data-key="76" src="sounds/tink.wav"></audio>
+
+<script>
+  window.addEventListener('keydown', function(e){
+    const audio = document.querySelector('audio[data-key="${e.keyCode}"]');
+    if(!audio) return; //stop the function from runningall together
+    audio.currenth
+    audio.play();
+  });
+</script>
 <footer class="footer">
   <p>&copy <script type="text/javascript">
   document.write(new Date().getFullYear());
@@ -116,5 +135,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <!-- Custom JS -->
   <script type="text/javascript" src="js/custom.js"></script>
+
 </body>
 </html>
+
