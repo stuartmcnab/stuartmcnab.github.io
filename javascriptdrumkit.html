@@ -20,7 +20,7 @@
 </head>
 <body>
 <!-- Navbar -->
-<header class="fixed-top">
+<header class="">
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="https://stuartmcnab.com/"><strong class="brackets">&lt;</strong>SM<strong class="brackets">&gt;</strong></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,44 +61,42 @@
   </ol>
 </nav>
 </header>
-
-<div></div>
-
-<div class="drumkit">
-  <div class="keys">
-    <div data-key="65" class="key">
+<content>
+<div class="drumkit container">
+  <div class="keys row">
+    <div data-key="65" class="key col-sm">
       <kbd>A</kbd>
       <span class="sound">clap</span>
     </div>
-    <div data-key="83" class="key">
+    <div data-key="83" class="key col-sm">
       <kbd>S</kbd>
       <span class="sound">hihat</span>
     </div>
-    <div data-key="68" class="key">
+    <div data-key="68" class="key col-sm">
       <kbd>D</kbd>
       <span class="sound">kick</span>
     </div>
-    <div data-key="70" class="key">
+    <div data-key="70" class="key col-sm">
       <kbd>F</kbd>
       <span class="sound">openhat</span>
     </div>
-    <div data-key="71" class="key">
+    <div data-key="71" class="key col-sm">
       <kbd>G</kbd>
       <span class="sound">boom</span>
     </div>
-    <div data-key="72" class="key">
+    <div data-key="72" class="key col-sm">
       <kbd>H</kbd>
       <span class="sound">ride</span>
     </div>
-    <div data-key="74" class="key">
+    <div data-key="74" class="key col-sm">
       <kbd>J</kbd>
       <span class="sound">snare</span>
     </div>
-    <div data-key="75" class="key">
+    <div data-key="75" class="key col-sm">
       <kbd>K</kbd>
       <span class="sound">tom</span>
     </div>
-    <div data-key="76" class="key">
+    <div data-key="76" class="key col-sm">
       <kbd>L</kbd>
       <span class="sound">tink</span>
     </div>
@@ -113,16 +111,9 @@
   <audio data-key="74" src="sounds/snare.wav"></audio>
   <audio data-key="75" src="sounds/tom.wav"></audio>
   <audio data-key="76" src="sounds/tink.wav"></audio>
-
-<script>
-  window.addEventListener('keydown', function(e){
-    const audio = document.querySelector('audio[data-key="${e.keyCode}"]');
-    if(!audio) return; //stop the function from runningall together
-    audio.currenth
-    audio.play();
-  });
-</script>
+</content>
 <footer class="footer">
+  <!-- date change sript -->
   <p>&copy <script type="text/javascript">
   document.write(new Date().getFullYear());
 </script> stuartmcnab.com</p>
@@ -136,6 +127,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <!-- Custom JS -->
   <script type="text/javascript" src="js/custom.js"></script>
+  <script type="text/javascript" src="js/drumkit.js"></script>
 
 </body>
 </html>
