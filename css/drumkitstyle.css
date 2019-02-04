@@ -1,5 +1,5 @@
 .drumkit {
-  background-image: url("https://wwww.stuartmcnab.com/css/images/drumkit.jpg") bottom center;
+  background-image: url("images/drumkit.jpg");
   background-size: cover;
   padding: 1rem;
 }
@@ -40,6 +40,7 @@
 kbd {
   display: block;
   font-size: 1.5rem;
+  margin-bottom: .5rem;
 }
 
 .sound {
