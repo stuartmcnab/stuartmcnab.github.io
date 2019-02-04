@@ -1,10 +1,10 @@
-html {
+.drumkit {
   font-size: 10px;
   background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
   background-size: cover;
 }
 
-body,html {
+.drumkit {
   margin: 0;
   padding: 0;
 /*   font-family: sans-serif */
