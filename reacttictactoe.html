@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="/css/custom.css">
+    <link rel="stylesheet" type="text/css" href="/css/reacttictactoe.css">
+<!-- Title -->
+  <title>React.js Tic-Tac-Toe | Stuart McNab</title>
+</head>
+<body>
+<!-- Navbar -->
+<header class=" ">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="https://stuartmcnab.com/"><strong class="brackets">&lt;</strong>SM<strong class="brackets">&gt;</SM<strong></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="demos.html">Demos</a>
+      </li>
+      <!-- <li class="nav-item">
+        <a class="nav-link" href="about.html">| About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">| Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="projects.html">| Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="blog.html">| Blog</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link" href="privacy.html">| Privacy</a>
+      </li> -->
+    </ul>
+  </div>
+</nav>
+<!-- Breadcrumb -->
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb drumkitbreadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="demos.html">Demos</a></li>
+    <li class="breadcrumb-item active" aria-current="page">React Tic-Tac-Toe</li>
+  </ol>
+</nav>
+</header>
+<content class="container reacttictactoe">
+	<div id="errors" style="
+  background: #c00;
+  color: #fff;
+  display: none;
+  margin: -20px -20px 20px;
+  padding: 20px;
+  white-space: pre-wrap;
+"></div>
+<div id="root"></div>
+<script>
+window.addEventListener('mousedown', function(e) {
+  document.body.classList.add('mouse-navigation');
+  document.body.classList.remove('kbd-navigation');
+});
+window.addEventListener('keydown', function(e) {
+  if (e.keyCode === 9) {
+    document.body.classList.add('kbd-navigation');
+    document.body.classList.remove('mouse-navigation');
+  }
+});
+window.addEventListener('click', function(e) {
+  if (e.target.tagName === 'A' && e.target.getAttribute('href') === '#') {
+    e.preventDefault();
+  }
+});
+window.onerror = function(message, source, line, col, error) {
+  var text = error ? error.stack || error : message + ' (at ' + source + ':' + line + ':' + col + ')';
+  errors.textContent += text + '\n';
+  errors.style.display = '';
+};
+console.error = (function(old) {
+  return function error() {
+    errors.textContent += Array.prototype.slice.call(arguments).join(' ') + '\n';
+    errors.style.display = '';
+    old.apply(this, arguments);
+  }
+})(console.error);
+</script>
+</content>
+
+</body>
+</html>
