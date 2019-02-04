@@ -17,3 +17,19 @@
   const keys = Array.from(document.querySelectorAll('.key'));
   keys.forEach(key => key.addEventListener('transitionend', removeTransition));
   window.addEventListener('keydown', playSound);
+
+// add clickability
+  const keysClick = Array.from(document.querySelectorAll('.key'));
+  keysClick.forEach(key => key.addEventListener("click", playSoundClick));
+
+  function playSoundClick() {
+    const audioClick = document.querySelector(`audio[data-key="${this.id}"]`);
+    const keyClick = document.querySelector(`div[data-key="${this.id}"]`);
+    if(!audioClick) return;
+
+    keyClick.classList.add('playing');
+    audioClick.currentTime = 0;
+    audioClick.play();
+  }
+    keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+

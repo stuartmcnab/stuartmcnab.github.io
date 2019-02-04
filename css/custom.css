@@ -10,7 +10,7 @@ body {
 	width: 100%;
 	text-align: center;
 	color:white;
-	padding-top: 40px;
+	padding-top: 5rem;
     padding-bottom: 5px;
     margin-top: 30px;
 }
@@ -25,6 +25,9 @@ footer {
 	background-color: #E8EBEE;
 	padding-top: 10px;
 	padding-bottom: 10px;
+}
+.intro{
+	text-align: center;
 }
 #contactme {
 	text-align: center;
