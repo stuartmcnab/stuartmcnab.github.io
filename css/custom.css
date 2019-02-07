@@ -1,10 +1,53 @@
 body {
 	font-family: 'Ubuntu', sans-serif;
 }
+.previewrow{
+	padding: 2%;
+}
 .snake{
 	margin: auto;
 	padding:  0;
 	text-align: center;
+}
+.snakepreview{
+	background-image: url('images/snake.jpg');
+	background-image: opacity:0.2;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	font-size: 2em;
+	color: white;
+	height: 200px;
+	width: 100%;
+	padding:4%;
+	margin:1%;
+}
+.drumkitpreview{
+	background-image: url('images/drumkit.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	font-size: 2em;
+	color: white;
+	height: 200px;
+	width: 100%;
+    padding:4%;
+	margin:1%;
+}
+.patatappreview{
+	background-image: url('images/patatapclone.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	font-size: 2em;
+	color: white;
+	height: 200px;
+	width: 100%;
+    padding:4%;
+	margin:1%;
 }
 
 .hero  {
@@ -15,7 +58,6 @@ body {
 	width: 100%;
 	text-align: center;
 	color:white;
-	padding-top: 5rem;
     padding-bottom: 15px;
     margin-top: 15px;
   }
