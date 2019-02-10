@@ -58,8 +58,9 @@ body {
 	width: 100%;
 	text-align: center;
 	color:white;
-    padding-bottom: 15px;
-    margin-top: 15px;
+    	padding-bottom: 15px;
+	padding-top:15px;
+    	margin-top: 15px;
   }
 footer {
 	padding-top: 15px;
