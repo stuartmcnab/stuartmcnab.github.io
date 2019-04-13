@@ -8,6 +8,8 @@
 .center {
 	align-content: center;
 }
-.custom-link {
-	color: #3C4858;
+
+.blur{
+	filter: blur(4px);
+	-webkit-filter: blur(4px);
 }
