@@ -10,8 +10,8 @@ window.addEventListener("keydown", function(e) {
 window.onload=function(){
 			canv=document.getElementById("gc");
 			ctx=canv.getContext("2d");
-			canvas.width = window.innerWidth;
-			canvas.height = window.innerHeight;
+			// canvas.width = window.innerWidth;
+			// canvas.height = window.innerHeight;
 			document.addEventListener("keydown",keyPush);
 			setInterval(game,1000/15);
 		}
