@@ -59,7 +59,6 @@ body{
     border-radius: 0.5rem;
     height: 160px;
     width: 240px;
-    max-height: 10rem;
 }
 .footer{
     grid-column: 1 / -1;
