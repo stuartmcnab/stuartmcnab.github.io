@@ -32,10 +32,7 @@ body{
 .header{
     grid-column: 1 / -1;
     height: 100%;
-    /* text-align: center; */
-    background: url(assets/citymin.jpeg);
-    background-position: top;
-    background-size: cover;
+    background: #E17B3B;
 }
 .header .bio{
     backdrop-filter: blur(10px);
