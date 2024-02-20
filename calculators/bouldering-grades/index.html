@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bouldering Grade Conversion</title>
+<link rel="stylesheet" href="/calculators/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bouldering Grade Conversion</h1>
+        <form id="gradeConversionForm">
+            <label for="grade">Enter Grade:</label>
+            <input type="text" id="grade" name="grade" placeholder="V2" required>
+
+            <label for="fromSystem">From System:</label>
+            <select id="fromSystem" name="fromSystem" required>
+                <option value="v">V-Scale to Font Scale</option>
+                <option value="font">Font Scale to V-Scale</option>
+            </select>
+
+            <button type="button" onclick="convertGrade()">Convert</button>
+            <button type="reset" class="reset">Reset</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
