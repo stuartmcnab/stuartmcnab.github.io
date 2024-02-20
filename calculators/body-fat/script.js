@@ -5,7 +5,7 @@ const calculateBodyFat = () => {
 
     let bodyFatPercentage = (495 / (1.0324 - 0.19077 * Math.log10(waist - neck) + 0.15456 * Math.log10(height)) - 450).toFixed(0)
 
-    document.getElementById('result').innerHTML = `Body Fat Percentage (YMCA Formula): ${bodyFatPercentage}%`;
+    document.getElementById('result').innerHTML = !bodyFatPercentage || bodyFatPercentage === 'NaN' ? 'Please complete all of the fields' : `Body Fat Percentage (YMCA Formula): ${bodyFatPercentage}%`;
 }
 
 
