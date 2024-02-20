@@ -55,3 +55,9 @@ body {
 .centered-text a:hover {
     color: #ffffff;
 }
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
