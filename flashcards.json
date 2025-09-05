@@ -104,10 +104,6 @@
     "back": "To block unwanted frequencies"
   },
   {
-    "front": "What is the 'band plan'?",
-    "back": "A document that divides the amateur radio spectrum into segments for specific types of transmissions"
-  },
-  {
     "front": "What is a 'simplex' mode of operation?",
     "back": "Communication on a single frequency, where only one station can transmit at a time"
   },
@@ -122,13 +118,5 @@
   {
     "front": "What is the legal requirement for maintaining a station log?",
     "back": "A licensee must keep a record of transmissions, including callsign, date, time, and frequency"
-  },
-  {
-    "front": "What is a 'dipole' antenna?",
-    "back": "A simple antenna consisting of two elements fed in the center"
-  },
-  {
-    "front": "What is the typical voltage of a car battery?",
-    "back": "12 Volts"
   }
 ]
