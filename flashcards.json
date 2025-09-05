@@ -25,7 +25,7 @@
   },
   {
     "front": "What is the maximum permitted power output for a Foundation license holder in the UK?",
-    "back": "10 Watts (W)"
+    "back": "25 Watts (W)"
   },
   {
     "front": "What is the purpose of an antenna tuner (ATU)?",
@@ -36,20 +36,12 @@
     "back": "$V = I \\times R$"
   },
   {
-    "front": "What is the process of mixing two or more signals to create a new one?",
-    "back": "Heterodyning"
-  },
-  {
     "front": "What is the UK regulator for amateur radio?",
     "back": "Ofcom"
   },
   {
-    "front": "What is the most serious form of interference you must avoid causing?",
-    "back": "Interference to safety services and licensed non-amateur services"
-  },
-  {
     "front": "What is the term for a signal that travels from the ionosphere back to Earth?",
-    "back": "Skip or skywave"
+    "back": "skywave"
   },
   {
     "front": "What is the unit of frequency?",
@@ -72,18 +64,6 @@
     "back": "A primary cell (e.g., an alkaline battery)"
   },
   {
-    "front": "What is the recommended method for making a safe connection to your radio's power supply?",
-    "back": "Connecting directly to a fused 13.8V DC power supply"
-  },
-  {
-    "front": "What is the main purpose of a coaxial cable?",
-    "back": "To carry radio signals from the radio to the antenna with minimal loss"
-  },
-  {
-    "front": "What is the maximum power an amateur can use to conduct an experimental transmission?",
-    "back": "200W PEP"
-  },
-  {
     "front": "What is a major risk associated with working near antennas and feeders at high power?",
     "back": "RF burns"
   },
@@ -96,10 +76,6 @@
     "back": "To convert sound waves into an electrical signal"
   },
   {
-    "front": "What is the standard name for the amateur radio service?",
-    "back": "The Amateur Radio Service"
-  },
-  {
     "front": "What is the frequency of a signal with a wavelength of 100 meters?",
     "back": "3 MHz ($300,000,000 m/s / 100 m = 3,000,000 Hz$)"
   },
@@ -108,28 +84,12 @@
     "back": "To extend the range of mobile and low-power handheld radios"
   },
   {
-    "front": "What is the purpose of an earth rod for an antenna?",
-    "back": "To provide a low-resistance path to ground for lightning strikes"
-  },
-  {
     "front": "What is the 'ionosphere'?",
-    "back": "A layer of the atmosphere that reflects radio signals, allowing for long-distance communication"
-  },
-  {
-    "front": "What is the purpose of the 'Amateur Radio Service'?",
-    "back": "To allow for self-training, intercommunication, and technical investigation by amateurs"
-  },
-  {
-    "front": "What is the definition of a 'decibel' (dB)?",
-    "back": "A unit used to express the ratio of two values of a physical quantity, often power or voltage"
+    "back": "Earth's upper atmosphere that reflects radio signals, allowing for long-distance communication"
   },
   {
     "front": "What is the difference between an AC and DC power supply?",
     "back": "AC (Alternating Current) periodically reverses direction, while DC (Direct Current) flows in only one direction"
-  },
-  {
-    "front": "What is the main function of a rectifier circuit?",
-    "back": "To convert AC into DC"
   },
   {
     "front": "What is the purpose of a resistor in a circuit?",
@@ -140,14 +100,6 @@
     "back": "$P = I \\times V$ (Power = Current \\times Voltage)"
   },
   {
-    "front": "What is the primary risk of an antenna near power lines?",
-    "back": "Electrocution"
-  },
-  {
-    "front": "What is the term for the number of complete cycles of an alternating current per second?",
-    "back": "Frequency"
-  },
-  {
     "front": "What is the primary purpose of a filter in a radio circuit?",
     "back": "To block unwanted frequencies"
   },
@@ -156,32 +108,12 @@
     "back": "A document that divides the amateur radio spectrum into segments for specific types of transmissions"
   },
   {
-    "front": "What are the three main components of a simple radio circuit?",
-    "back": "A transmitter, an antenna, and a receiver"
-  },
-  {
     "front": "What is a 'simplex' mode of operation?",
     "back": "Communication on a single frequency, where only one station can transmit at a time"
   },
   {
-    "front": "What is the purpose of an 'L-match' circuit?",
-    "back": "A simple type of antenna tuner"
-  },
-  {
     "front": "What does the term 'CW' stand for?",
     "back": "Continuous Wave, commonly known as Morse code"
-  },
-  {
-    "front": "What is a 'balanced' feeder?",
-    "back": "A feeder that carries equal and opposite currents on its two conductors, such as a twin-lead or ladder line"
-  },
-  {
-    "front": "What is the purpose of a 'low pass filter' on a transmitter?",
-    "back": "To prevent the transmission of unwanted harmonics"
-  },
-  {
-    "front": "What is a 'Q-code'?",
-    "back": "A series of three-letter codes beginning with 'Q', used to simplify radio communication"
   },
   {
     "front": "What is the SI unit for voltage?",
