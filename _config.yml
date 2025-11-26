@@ -1,0 +1,18 @@
+# Minimal Jekyll Configuration
+# This preserves your existing site while adding blog functionality
+
+# Site settings
+title: stuartmcnab.com
+description: Stuart McNab is a software engineer and technologist
+url: "https://stuartmcnab.com"
+
+# Build settings
+markdown: kramdown
+
+# Don't apply any theme - keep your existing design
+theme: null
+
+# Exclude files from processing
+exclude:
+  - readme.md
+  - CNAME
