@@ -8,6 +8,7 @@ url: "https://stuartmcnab.com"
 
 # Build settings
 markdown: kramdown
+permalink: /blog/:title/
 
 # Don't apply any theme - keep your existing design
 theme: null
