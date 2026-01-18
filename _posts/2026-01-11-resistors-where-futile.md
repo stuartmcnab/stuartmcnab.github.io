@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Resistors where futile"
-date: 2027-01-11 16:49:00 -0000
+date: 2026-01-11 16:49:00 -0000
 categories: blog
 ---
 
