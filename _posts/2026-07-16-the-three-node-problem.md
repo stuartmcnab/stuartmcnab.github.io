@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The three node problem"
-date: 2026-03-030 13:30:00 -0000
+date: 2026-07-16 13:30:00 -0000
 categories: blog
 ---
 

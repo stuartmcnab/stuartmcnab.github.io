@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Thank you, and Goodbye. Gemini"
-date: 2026-03-030 13:30:00 -0000
+date: 2026-03-30 13:30:00 -0000
 categories: blog
 ---
 
